@@ -3,7 +3,7 @@ function Footer() {
   return (
     <>
       <h1 className="rodape">
-        Desenvolvidor por{" "}
+        Desenvolvido por{" "}
         <a
           href="https://github.com/MarcosVini9999"
           target="_blank"
