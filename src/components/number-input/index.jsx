@@ -1,12 +1,13 @@
 import React from "react";
+import "./index.css";
 
-function NumberInput({number, setNumber}){
-    return(
+function NumberInput({ number, setNumber }) {
+    return (
         <div>
-            <input type="number" value={number} onChange={(e)=>{
+            <input className="inputBtn" type="number" value={number} onChange={(e) => {
                 console.log(e.target.value)
                 setNumber(Number(e.target.value))
-            }}/>
+            }} />
         </div>
     )
 }

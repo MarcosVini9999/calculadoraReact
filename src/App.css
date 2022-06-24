@@ -1,11 +1,39 @@
-.inputs {
+.containerBox {
+  display: flex;
+  width: 97.5vw;
+  height: 97.9vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.calculatorBox {
+  background-color: #339fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25rem;
+  height: 16rem;
+}
+.titlePage {
+  color: #fff;
+  font-size: 2rem;
+  font-family: cursive;
+  margin-block: 1rem;
+}
+.inputsNum {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-bottom: 1rem;
+  gap: 0.4rem;
 }
-.result {
+.resultNum {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #fff;
+  font-size: 2rem;
+  font-family: cursive;
+  margin-block: 1rem;
 }

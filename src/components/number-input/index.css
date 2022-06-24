@@ -1,2 +1,14 @@
-.input {
+.inputBtn {
+  border-radius: 4px;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  padding: 0.1rem 0.1rem 0.1rem 0.1rem;
+  font-size: 2rem;
+  background-color: #90c3e7;
+  color: #fff;
+}
+.inputBtn:hover {
+  padding: 0rem;
+  border: 0.1rem solid #0061a5;
 }
