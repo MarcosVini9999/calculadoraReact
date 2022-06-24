@@ -1,6 +1,7 @@
 import {useState} from "react";
 import NumberInput from "./components/number-input/index";
 import ButtonSum from "./components/button-sum/index";
+import Footer from "./components/layout/Footer";
 import "./App.css";
 function App() {
   const [inputA, setInputA] = useState(0);
@@ -10,7 +11,7 @@ function App() {
     <>
       <div className="containerBox">
         <div className="calculatorBox">
-          <h1 className="titlePage">Somador em React</h1>
+          <h1 className="titlePage">{process.env.REACT_APP_NAME}</h1>
           <div className="inputsNum">
             <NumberInput number={inputA} setNumber={setInputA} />
             <NumberInput number={inputB} setNumber={setInputB} />
@@ -18,6 +19,7 @@ function App() {
           <ButtonSum buttonClicked={() => setResult(inputA + inputB)} />
           <div className="resultNum">{result}</div>
         </div>
+        <Footer />
       </div>
     </>
   );
