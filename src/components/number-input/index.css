@@ -5,8 +5,9 @@
   border: none;
   padding: 0.1rem 0.1rem 0.1rem 0.1rem;
   font-size: 2rem;
-  background-color: #90c3e7;
+  font-family: cursive;
   color: #fff;
+  background-color: #90c3e7;
 }
 .inputBtn:hover {
   padding: 0rem;
